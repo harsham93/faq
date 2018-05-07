@@ -1,8 +1,14 @@
 # faq
+As a user I should get a notification when a question is being answered and when an answer is modified or edited. I should get an email when any of the above things happens.
 
-To run the faq project:
+ 
 
-1. git clone https://github.com/harsham93/faq.git
-2.CD into FAQ and run composer install
-3. cp .env.example to .env
-4. setup database/with sqlite or other  (https://laravel.com/docs/5.6/database)
+Acceptance Criteria
+
+·        The user should get an email when a question is being answered. The email should be addressed to the registered users.
+
+·        The email should have a subject, briefly line explaining the purpose of the email.
+
+·        The body should have main points and a link to the question being answered.
+
+·        The email should end with a greeting.
